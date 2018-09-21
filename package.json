@@ -1,0 +1,19 @@
+{
+  "name": "vd-ts",
+  "version": "0.0.1",
+  "description": "VirtualDom implementation in TypeScript",
+  "main": "index.js",
+  "repository": "https://github.com/dzyhenry/vd-ts.git",
+  "author": "dzyhenry <dzyhenry@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint ."
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "prettier": "^1.14.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
