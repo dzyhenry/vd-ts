@@ -1,6 +1,6 @@
 import VN from './VN';
 import { NodeTypeEnum } from '../Enums';
-import { isHook, isVirtalNode, isWidget, isThunk } from '../nodeTypeCheck';
+import { isHook, isVirtualNode, isWidget, isThunk } from '../nodeTypeCheck';
 
 export class VNode extends VN {
   tagName: string;
@@ -44,7 +44,7 @@ export class VNode extends VN {
 
     for (let i = 0; i < children.length; i += 1) {
       const child = children[i];
-      if (isVirtalNode(child)) {
+      if (isVirtualNode(child)) {
         descendants += child.count || 0;
 
         if (!hasWidgets && child.hasWidgets) {

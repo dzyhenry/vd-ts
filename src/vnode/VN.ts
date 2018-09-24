@@ -1,6 +1,9 @@
 import version from './version';
 import { NodeTypeEnum } from '../Enums';
 
+/**
+ * Basic class of all virtual nodes
+ */
 export default class VN {
   version: number;
   type: NodeTypeEnum;
